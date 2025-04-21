@@ -4,8 +4,9 @@
   "description": "NGUYEN THI YEN PHUONG",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "nodemon server.js",
+  "test": "echo \"Error: no test specified\" && exit 1"
+}
   "author": "NGUYEN THI YEN PHUONG",
   "license": "ISC",
   "dependencies": {
@@ -15,6 +16,7 @@
   "devDependencies": {
     "eslint": "^9.25.1",
     "eslint-config-prettier": "^10.1.2",
+    "nodemon": "^3.1.9",
     "prettier": "^3.5.3"
   }
 }
